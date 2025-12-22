@@ -1,0 +1,8 @@
+= Setup unter Linux =
+
+Setting Up for Java on Linux
+https://dev.to/mtendekuyokwa19/setting-up-for-java-on-linux-133f
+
+Package: default-jdk
+
+Test Java version: java --version
