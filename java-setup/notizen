@@ -22,3 +22,31 @@ $ javac --version
 javac 17.0.17
 $
 ----
+
+= Programm übersetzen =
+
+* Compiler: javac 
+
+* Aufruf: javac Programmname.java
+
+----
+$ javac HelloWorld.java
+$ ls
+HelloWorld.class  HelloWorld.java
+$ file HelloWorld.class 
+HelloWorld.class: compiled Java class data, version 61.0 (Java SE 17)
+$
+----
+
+= Übersetztes Programm ausführen =
+
+* Interpreter für Java-Code: java
+
+* Aufruf: java Programmname
+  Parameter ist Programmname als Abkürzung für Programmname.class
+
+----
+$ java HelloWorld 
+Hello, world!
+$
+----
