@@ -23,6 +23,9 @@ javac 17.0.17
 $
 ----
 
+* Java Online Compiler
+  https://www.jdoodle.com/online-java-compiler
+
 = Programm übersetzen =
 
 * Compiler: javac 
@@ -50,6 +53,29 @@ $ java HelloWorld
 Hello, world!
 $
 ----
+
+= Java-Spielwiese (online) =
+
+* The Java Playground
+  https://dev.java/playground/
+
+= Laufende Java-Prozesse beobachten (Monitoring) =
+
+* jps
+
+  mehr Informationen hierzu:
+  Check Java processes on Linux with the jps command
+  https://opensource.com/article/21/10/check-java-jps
+
+= Stilprüfung für Java-Code =
+
+* checkstyle
+  https://checkstyle.org/
+
+= Debugger für Java-Code =
+
+* Online GDB
+  https://www.onlinegdb.com/online_java_debugger
 
 = Nützliche Links =
 
