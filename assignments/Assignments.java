@@ -30,7 +30,15 @@ public class Assignments {
     System.out.printf("colour: " + colour + "\n");
 
     // multiple assignments
-    
+    boolean isIncluded, isClosed;      // boolean assignments without value
+    int a, b, c;                       // define a, b, and c as integers without value
+    a = b = c = 1;                     // assign 1 to a, b, and c
+    int d = 3, e = 4;                  // assign 3 to d, and 4 to e
+
+    // cannot be printed: variable isIncluded, and isClosed are not initialized
+    // System.out.printf("isIncluded: %b", isIncluded);
+
+    System.out.printf("a, b, c, d, e: %d %d %d %d %d\n", a, b, c, d, e);
 
     // assignments with calculations
 
