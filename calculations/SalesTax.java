@@ -1,8 +1,16 @@
-// (C) 2025 Frank Hofmann, email info@efho.de
-// Licensed under General Public License (GPL)
-
+// ------------------------------------------------------------------
 // demonstrates how to calculate the sales tax for a purchase
+//
+// (C) 2025 Frank Hofmann
+// Released under GNU Public License (GPL)
+// email frank.hofmann@efho.de
+// 
+// License: GNU Public License (GPL) v.3.0 or later
+// SPDX-License-Identifier: GNU General Public License v3.0 or later
+// 
 // usage: java SalesTax
+// ------------------------------------------------------------------
+
 
 public class SalesTax {
   public static void main (String[] args) {
