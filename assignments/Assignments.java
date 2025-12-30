@@ -40,7 +40,16 @@ public class Assignments {
 
     System.out.printf("a, b, c, d, e: %d %d %d %d %d\n", a, b, c, d, e);
 
-    // assignments with calculations
+    // assignments with calculations, and datatype conversions
+    int total = a + b - c + d - e;     // simple addition of five values
+    String output2 = "light" + colour; // concatenate two strings
+    String output3 = colour + Integer.toString(total); // concatenate a string with converted integer
+    String output4 = colour + String.valueOf(total);   // concatenate a string with converted integer
+
+    System.out.printf("total: %d\n", total);
+    System.out.printf("output2: " + output2 + "\n");
+    System.out.printf("output3: " + output3 + "\n");
+    System.out.printf("output4: " + output4 + "\n");
 
     // print a partial string from index position 2 up to, but not including 4
 
