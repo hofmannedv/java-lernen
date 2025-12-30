@@ -45,11 +45,13 @@ public class Assignments {
     String output2 = "light" + colour; // concatenate two strings
     String output3 = colour + Integer.toString(total); // concatenate a string with converted integer
     String output4 = colour + String.valueOf(total);   // concatenate a string with converted integer
+    String output5 = colour + total;   // concatenate a string with automatic conversion
 
     System.out.printf("total: %d\n", total);
     System.out.printf("output2: " + output2 + "\n");
     System.out.printf("output3: " + output3 + "\n");
     System.out.printf("output4: " + output4 + "\n");
+    System.out.printf("output5: " + output5 + "\n");
 
     // print a partial string from index position 2 up to, but not including 4
 
