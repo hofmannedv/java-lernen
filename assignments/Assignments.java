@@ -53,12 +53,13 @@ public class Assignments {
     System.out.printf("output4: " + output4 + "\n");
     System.out.printf("output5: " + output5 + "\n");
 
-    // print a partial string from index position 2 up to, but not including 4
+    // print a partial string from the beginning up to index position 2
+    System.out.println(colour.substring(0, 2));   // printr 'bl'
 
-    // print a partial string, the last four letters
+    // print a partial string, the last three letters
+    System.out.println(colour.substring(colour.length() - 3, colour.length()));
 
     // print a partial string from index position 2 up to the end
-
-    // System.out.println("Hello, world!");
+    System.out.println(colour.substring(2, colour.length()));
   }
 }
