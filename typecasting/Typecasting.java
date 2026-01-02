@@ -45,5 +45,13 @@ public class Typecasting {
     System.out.println("long as int from " + height + " to " + (int)height); // ?
     System.out.println("short as byte from " + width + " to " + (byte)width);
 
+    // assigning values using an implicit data type conversion
+    float length1 = 1.55f;             // float assignment with value 1.55
+    int adjustedLength1 = (int)length1;// integer conversion, and assignment of 1
+    System.out.printf("float of %2f converted to int of %d \n", length1, adjustedLength1);
+    float length2 = 1.45f;             // float assignment with value 1.45
+    int adjustedLength2 = (int)length2;// integer conversion, and assignment of 1
+    System.out.printf("float of %2f converted to int of %d \n", length1, adjustedLength1);
+
   }
 }
