@@ -67,6 +67,24 @@ public class ArithmeticOperators {
     System.out.printf("the difference between %f and %f is %f. \n", operand1, operand2, difference);
   }
 
+  public static void multiplyInteger(int operand1, int operand2) {
+    
+    // calculate product of the two parameters
+    int product = operand1 * operand2;
+    
+    // output result
+    System.out.printf("the product of %d and %d is %d. \n", operand1, operand2, product);
+  }
+
+  public static void multiplyFloat(float operand1, float operand2) {
+    
+    // calculate product of the two parameters
+    float product = operand1 * operand2;
+    
+    // output result
+    System.out.printf("the product of %f and %f is %f. \n", operand1, operand2, product);
+  }
+
   public static void main (String[] args) {
 
     // variable assignments
@@ -113,6 +131,11 @@ public class ArithmeticOperators {
 
     // * multiplication: *
     System.out.println("= Multiplication =");
+    multiplyInteger(10, 15);           // multiply two positive integer values with each other
+    multiplyInteger(10, -15);          // multiply a positive, and a negative integer value with each other
+    multiplyFloat(10.0f, -1.23f);      // multiply two float values with each other
+    multiplyFloat(10, -1.23f);         // multiply integer, and float value with each other, automatic type conversion
+    System.out.println(" ");
 
     // * division: /
     System.out.println("= Division =");
