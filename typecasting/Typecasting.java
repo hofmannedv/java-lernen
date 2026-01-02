@@ -10,11 +10,13 @@
 // 
 // usage: java Typecasting
 //
-// used resources for the content: 
+// further resources for this topic: 
 // * Java Type Casting, from w3schools
 //   see https://www.w3schools.com/java/java_type_casting.asp
 // * Java Output printf() Method, from w3schools
 //   see https://www.w3schools.com/java/ref_output_printf.asp
+// * Java Program to convert double type variables to string, from Vultr
+//   https://docs.vultr.com/java/examples/convert-double-type-variables-to-string
 // ------------------------------------------------------------------
 
 public class Typecasting {
