@@ -121,6 +121,15 @@ public class ArithmeticOperators {
     System.out.printf("the remainder of %f and %f is %f. \n", operand1, operand2, remainder);
   }
 
+  public static void exponentInteger(int operand1, int operand2) {
+    
+    // calculate the exponential value based on the two parameters
+    double result = Math.pow(operand1,operand2);
+    
+    // output result
+    System.out.printf("the result of %d^%d is %f. \n", operand1, operand2, result);
+  }
+
   public static void main (String[] args) {
 
     // variable assignments
@@ -197,5 +206,10 @@ public class ArithmeticOperators {
     moduloInteger(10, -15);            // calculate the remainder for a positive, and a negative integer value
     moduloFloat(15.0f, 10.0f);         // calculate the remainder for two positive float values
     moduloFloat(10, 3.0f);             // calculate the remainder for an integer, and a float value
+    System.out.println(" ");
+
+    // * exponent
+    System.out.println("= Exponent =");
+    exponentInteger(5, 3);             // calculate exponential value based on two integers
   }
 }
