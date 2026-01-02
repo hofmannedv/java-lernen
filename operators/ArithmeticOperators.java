@@ -85,6 +85,24 @@ public class ArithmeticOperators {
     System.out.printf("the product of %f and %f is %f. \n", operand1, operand2, product);
   }
 
+  public static void divideInteger(int operand1, int operand2) {
+    
+    // divide the two parameters
+    int quotient = operand1 / operand2;
+    
+    // output result
+    System.out.printf("the quotient of %d and %d is %d. \n", operand1, operand2, quotient);
+  }
+
+  public static void divideFloat(float operand1, float operand2) {
+    
+    // divide the two parameters
+    float quotient = operand1 / operand2;
+    
+    // output result
+    System.out.printf("the quotient of %f and %f is %f. \n", operand1, operand2, quotient);
+  }
+
   public static void main (String[] args) {
 
     // variable assignments
@@ -125,9 +143,19 @@ public class ArithmeticOperators {
 
     // * increment: ++
     System.out.println("= Increment =");
+    int counter = 5;
+    System.out.printf("increase counter (5) by 1 before evaluation, result is %d \n", ++counter);
+    counter = 5;
+    System.out.printf("increase counter (5) by 1 after evaluation, result is %d \n", counter++);
+    System.out.println(" ");
 
     // * decrement: --
     System.out.println("= Decrement =");
+    counter = 5;
+    System.out.printf("decrease counter (5) by 1 before evaluation, result is %d \n", --counter);
+    counter = 5;
+    System.out.printf("decrease counter (5) by 1 after evaluation, result is %d \n", counter--);
+    System.out.println(" ");
 
     // * multiplication: *
     System.out.println("= Multiplication =");
@@ -139,6 +167,11 @@ public class ArithmeticOperators {
 
     // * division: /
     System.out.println("= Division =");
+    divideInteger(10, 15);             // divide two positive integer values
+    divideInteger(10, -15);            // divide a positive by a negative integer value
+    divideFloat(10.0f, -1.23f);        // divide two float values
+    divideFloat(10, -1.23f);           // divide an integer by a float value, automatic type conversion
+    System.out.println(" ");
 
     // * modulo: %
     System.out.println("= Modulo operation =");
