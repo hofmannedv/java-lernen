@@ -65,5 +65,10 @@ public class Typecasting {
     // double netPriceD = 12.34d;         // double assignment with value 12.34
     netPriceS = String.valueOf(netPriceD);         // convert to string
     System.out.printf("double of %f converted to string of %s using valueOf method \n", netPriceD, netPriceS);
+
+    // * double to String using format method
+    // double netPriceD = 12.34d;         // double assignment with value 12.34
+    netPriceS = String.format("%.2f", netPriceD);  // convert to string
+    System.out.printf("double of %f converted to string of %s using format method \n", netPriceD, netPriceS);
   }
 }
