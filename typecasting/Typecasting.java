@@ -17,8 +17,6 @@
 //   see https://www.w3schools.com/java/ref_output_printf.asp
 // ------------------------------------------------------------------
 
-// *** still incomplete, and file is work in progress ***
-
 public class Typecasting {
   public static void main (String[] args) {
 
@@ -28,7 +26,7 @@ public class Typecasting {
     short width = -45;                 // short assignment with value '-45' 
     char letter = '%';                 // character assignment with value '%'
     int postcode = 14467;              // integer assignment with value '14467' 
-    long height = 135792;              // long assignment with value '135792' 
+    long height = 135792468;           // long assignment with value '135792468' 
     float weight = 1.25f;              // float assignment with value 1.25
     double size = 2.25;                // double assignment with value 2.25
     String colour = "blue";            // string assignment with value 'blue'
@@ -43,6 +41,9 @@ public class Typecasting {
     // converting a larger type to a smaller type size (manual conversion)
     // * double -> float -> long -> int -> char -> short -> byte -> boolean 
     // * String -> char
+    System.out.println("float as long from " + weight + " to " + (long)weight);
+    System.out.println("long as int from " + height + " to " + (int)height); // ?
+    System.out.println("short as byte from " + width + " to " + (byte)width);
 
   }
 }
