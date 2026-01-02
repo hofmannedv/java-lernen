@@ -49,6 +49,24 @@ public class ArithmeticOperators {
     System.out.printf("the sum of %f and %f is %f. \n", operand1, operand2, sum);
   }
 
+  public static void subtractInteger(int operand1, int operand2) {
+    
+    // calculate difference between the two parameters
+    int difference = operand1 - operand2;
+    
+    // output result
+    System.out.printf("the difference between %d and %d is %d. \n", operand1, operand2, difference);
+  }
+
+  public static void subtractFloat(float operand1, float operand2) {
+    
+    // calculate difference between the two parameters
+    float difference = operand1 - operand2;
+    
+    // output result
+    System.out.printf("the difference between %f and %f is %f. \n", operand1, operand2, difference);
+  }
+
   public static void main (String[] args) {
 
     // variable assignments
@@ -81,6 +99,11 @@ public class ArithmeticOperators {
 
     // * subtraction: -
     System.out.println("= Subtraction =");
+    subtractInteger(10, 15);           // subtract two positive integer values from each other
+    subtractInteger(10, -15);          // subtract a positive, and a negative integer value from each other
+    subtractFloat(10.0f, -1.23f);      // subtract two float values from each other
+    subtractFloat(10, -1.23f);         // subtract integer, and float value with automatic type conversion
+    System.out.println(" ");
 
     // * increment: ++
     System.out.println("= Increment =");
