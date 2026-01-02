@@ -103,6 +103,15 @@ public class ArithmeticOperators {
     System.out.printf("the quotient of %f and %f is %f. \n", operand1, operand2, quotient);
   }
 
+  public static void floorDivideInteger(int operand1, int operand2) {
+    
+    // floor division of the two parameters
+    int result = Math.floorDiv(operand1, operand2);
+    
+    // output result
+    System.out.printf("the result of the floor division between %d and %d is %d. \n", operand1, operand2, result);
+  }
+
   public static void moduloInteger(int operand1, int operand2) {
     
     // calculate the remainder of the two parameters
@@ -200,5 +209,10 @@ public class ArithmeticOperators {
     // * exponent
     System.out.println("= Exponent =");
     exponentInteger(5, 3);             // calculate exponential value based on two integers
+    System.out.println(" ");
+
+    // * floor division
+    System.out.println("= Floor Division =");
+    floorDivideInteger(5, 3);          // calculate floor division between two integer values
   }
 }
