@@ -103,6 +103,24 @@ public class ArithmeticOperators {
     System.out.printf("the quotient of %f and %f is %f. \n", operand1, operand2, quotient);
   }
 
+  public static void moduloInteger(int operand1, int operand2) {
+    
+    // calculate the remainder of the two parameters
+    int remainder = operand1 % operand2;
+    
+    // output result
+    System.out.printf("the remainder of %d and %d is %d. \n", operand1, operand2, remainder);
+  }
+
+  public static void moduloFloat(float operand1, float operand2) {
+    
+    // calculate the remainder of the two parameters
+    float remainder = operand1 % operand2;
+    
+    // output result
+    System.out.printf("the remainder of %f and %f is %f. \n", operand1, operand2, remainder);
+  }
+
   public static void main (String[] args) {
 
     // variable assignments
@@ -175,5 +193,9 @@ public class ArithmeticOperators {
 
     // * modulo: %
     System.out.println("= Modulo operation =");
+    moduloInteger(15, 10);             // calculate the remainder for two positive integer values
+    moduloInteger(10, -15);            // calculate the remainder for a positive, and a negative integer value
+    moduloFloat(15.0f, 10.0f);         // calculate the remainder for two positive float values
+    moduloFloat(10, 3.0f);             // calculate the remainder for an integer, and a float value
   }
 }
