@@ -10,8 +10,11 @@
 // 
 // usage: java Typecasting
 //
-// used resource for the content: Java Type Casting, from w3schools
-// see https://www.w3schools.com/java/java_type_casting.asp
+// used resources for the content: 
+// * Java Type Casting, from w3schools
+//   see https://www.w3schools.com/java/java_type_casting.asp
+// * Java Output printf() Method, from w3schools
+//   see https://www.w3schools.com/java/ref_output_printf.asp
 // ------------------------------------------------------------------
 
 // *** still incomplete, and file is work in progress ***
@@ -33,6 +36,9 @@ public class Typecasting {
     // converting a smaller type to a larger type size (automated conversion)
     // * boolean -> byte -> short -> char -> int -> long -> float -> double
     // * char -> String
+    System.out.printf("boolean (lowercase): %b \n", isAvailable);
+    System.out.printf("boolean (uppercase): %B \n", isAvailable);
+    System.out.println("boolean (implicit):  " + isAvailable);
 
     // converting a larger type to a smaller type size (manual conversion)
     // * double -> float -> long -> int -> char -> short -> byte -> boolean 
