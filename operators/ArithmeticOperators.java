@@ -80,10 +80,21 @@ public class ArithmeticOperators {
     System.out.println(" ");
 
     // * subtraction: -
+    System.out.println("= Subtraction =");
+
     // * increment: ++
+    System.out.println("= Increment =");
+
     // * decrement: --
+    System.out.println("= Decrement =");
+
     // * multiplication: *
+    System.out.println("= Multiplication =");
+
     // * division: /
+    System.out.println("= Division =");
+
     // * modulo: %
+    System.out.println("= Modulo operation =");
   }
 }
