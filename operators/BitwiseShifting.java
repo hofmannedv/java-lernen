@@ -40,6 +40,8 @@ public class BitwiseShifting {
     System.out.println(" "); 
     System.out.println("= Bitwise Unsigned Shifting =");
 
+    // bitwise unsigned shifting to the left: no known operator exists
+
     // bitwise unsigned shifting to the right
     a = -12;                                     // assign a different value to a: -12
     aBinary = Integer.toBinaryString(a);         // string containing the binary representation of a
