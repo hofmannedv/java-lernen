@@ -24,10 +24,23 @@ public class Condition {
        System.out.println("Bravo -- you have passed the test!");
     }
 
-    // test for a value using if keyword, and alternative
+    // test for a value using if keyword, and alternative using else
     // first message is printed only if condition is met, otherwise the second message
     result = 45;                       // redefine integer with test result
     if (result > 50) {
+       System.out.println("Bravo -- you have passed the test!");
+    } else {
+       System.out.println("Unfortunately, you did not reach the minimum number of points. Keep trying.");
+    }
+
+    // test for a value using if keyword, an alternative using else if, and an alternative using else
+    // first message is printed only if first condition is met
+    // second message is printed only if first condition is not met
+    // third message is printed only if both first, and second condition are not met
+    result = 55;                       // redefine integer with test result
+    if (result > 75) {
+       System.out.println("You did very well -- more than 75 points!");
+    } else if (result > 50) {
        System.out.println("Bravo -- you have passed the test!");
     } else {
        System.out.println("Unfortunately, you did not reach the minimum number of points. Keep trying.");
