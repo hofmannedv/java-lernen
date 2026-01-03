@@ -46,13 +46,29 @@ public class WhileLoop {
     System.out.println(" ");
 
     // print the numbers between 10 to 1 as a countdown, one value per line
-    maximum = 10;
     position = 10;
     while (position > 0) {
       System.out.printf("value: %d \n", position);
 
       // decrease the current position by one
       position = position - 1;
+    }
+
+    System.out.println(" ");
+
+    // print the numbers between 10 to 1 as a countdown, one value per line
+    // implemented as endless loop, with break statement to exit the loop
+    position = 10;
+    while (true) {
+      System.out.printf("value: %d \n", position);
+
+      // decrease the current position by one
+      position = position - 1;
+
+      // check position for exiting the loop
+      if (position < 1) {
+        break;
+      }
     }
   }
 }
