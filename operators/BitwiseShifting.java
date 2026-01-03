@@ -25,6 +25,8 @@ public class BitwiseShifting {
     int a = 3;                                   // integer value: 3
     String aBinary = Integer.toBinaryString(a);  // string containing the binary representation of a
 
+    System.out.println("= Bitwise Signed Shifting =");
+
     // bitwise signed shifting to the left
     int signedLeftShift = a << 1;                // integer with the value shifted to the left
     String signedLeftShiftBinary = Integer.toBinaryString(signedLeftShift); // binary representation
@@ -35,8 +37,15 @@ public class BitwiseShifting {
     String signedRightShiftBinary = Integer.toBinaryString(signedRightShift); // binary representation
     System.out.printf("%d (binary: %s) shifted to the right once results in %d (binary: %s)\n", a, aBinary, signedRightShift, signedRightShiftBinary);
 
-    // bitwise unsigned shifting to the left
+    System.out.println(" "); 
+    System.out.println("= Bitwise Unsigned Shifting =");
+
     // bitwise unsigned shifting to the right
+    a = -12;                                     // assign a different value to a: -12
+    aBinary = Integer.toBinaryString(a);         // string containing the binary representation of a
+    int unsignedRightShift = a >>> 1;            // integer with the value shifted to the right
+    String unsignedRightShiftBinary = Integer.toBinaryString(unsignedRightShift); // binary representation
+    System.out.printf("%d (binary: %s) shifted to the right once results in %d (binary: %s)\n", a, aBinary, unsignedRightShift, unsignedRightShiftBinary);
 
   }
 }
