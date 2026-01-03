@@ -26,6 +26,19 @@ public class ComparisonOperators {
     }
   }
 
+  public static void isNotEqualInteger(int operand1, int operand2) {
+    
+    // compare the two operands using the != operator
+    boolean result = operand1 != operand2;
+    
+    // output result
+    if (result == true) {
+      System.out.printf("'%d' and '%d' are not equal. \n", operand1, operand2);
+    } else {
+      System.out.printf("'%d' and '%d' are equal. \n", operand1, operand2);
+    }
+  }
+
   public static void isGreaterInteger(int operand1, int operand2) {
     
     // compare the two operands using the > operator
@@ -52,18 +65,50 @@ public class ComparisonOperators {
     }
   }
 
+  public static void isGreaterOrEqualInteger(int operand1, int operand2) {
+    
+    // compare the two operands using the >= operator
+    boolean result = operand1 >= operand2;
+    
+    // output result
+    if (result == true) {
+      System.out.printf("'%d' is greater than, or equal to '%d'. \n", operand1, operand2);
+    } else {
+      System.out.printf("'%d' is lower than '%d'. \n", operand1, operand2);
+    }
+  }
+
+  public static void isLessOrEqualInteger(int operand1, int operand2) {
+    
+    // compare the two operands using the <= operator
+    boolean result = operand1 <= operand2;
+    
+    // output result
+    if (result == true) {
+      System.out.printf("'%d' is lower than, or equal to '%d'. \n", operand1, operand2);
+    } else {
+      System.out.printf("'%d' is greater than '%d'. \n", operand1, operand2);
+    }
+  }
+
   public static void main (String[] args) {
 
     // compare two integer values for equality
     isEqualInteger(15,10);
     isEqualInteger(15,15);
+    isNotEqualInteger(15,10);
+    isNotEqualInteger(15,15);
 
     // compare two integer values for greater than
     isGreaterInteger(15,10);
     isGreaterInteger(15,15);
+    isGreaterOrEqualInteger(15,10);
+    isGreaterOrEqualInteger(15,15);
 
     // compare two integer values for lower than
     isLessInteger(15,10);
     isLessInteger(15,15);
+    isLessOrEqualInteger(15,10);
+    isLessOrEqualInteger(15,15);
   }
 }
