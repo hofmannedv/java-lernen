@@ -16,12 +16,21 @@ public class Condition {
   public static void main (String[] args) {
 
     // define variables
-    int result = 95;                   // integer with test result
+    int result = 95;                   // define integer with test result
 
     // simple test for a value using if keyword
     // message is printed only if condition is met
     if (result > 50) {
        System.out.println("Bravo -- you have passed the test!");
+    }
+
+    // test for a value using if keyword, and alternative
+    // first message is printed only if condition is met, otherwise the second message
+    result = 45;                       // redefine integer with test result
+    if (result > 50) {
+       System.out.println("Bravo -- you have passed the test!");
+    } else {
+       System.out.println("Unfortunately, you did not reach the minimum number of points. Keep trying.");
     }
   }
 }
