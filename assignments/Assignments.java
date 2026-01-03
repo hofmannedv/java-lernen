@@ -1,7 +1,7 @@
 // ------------------------------------------------------------------
 // demonstrates how to assign values to a variable
 //
-// (C) 2025 Frank Hofmann
+// (C) 2025-2026 Frank Hofmann
 // Released under GNU Public License (GPL)
 // email frank.hofmann@efho.de
 // 
