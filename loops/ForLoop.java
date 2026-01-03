@@ -23,12 +23,21 @@ public class ForLoop {
       System.out.printf("value: %d \n", i);
     }
 
+    System.out.println(" ");
+
     // print even numbers between 1 to 10, one value per line
     for (i = 1; i < 11; i++) {
       // check for a remainder of 0 which is true for even numbers, only
       if (i % 2 == 0) {
         System.out.printf("value: %d \n", i);
       }
+    }
+
+    System.out.println(" ");
+
+    // print the numbers between 10 to 1 as a countdown, one value per line
+    for (i = 10; i > 0; i--) {
+      System.out.printf("value: %d \n", i);
     }
   }
 }
