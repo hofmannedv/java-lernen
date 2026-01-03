@@ -70,6 +70,25 @@ public class WhileLoop {
         break;
       }
     }
+
+    System.out.println(" ");
+
+    // print even numbers between 1 to 10, one value per line
+    // use continue to skip one iteration
+    position = 1;
+    maximum = 10;
+    while (position <= maximum) {
+      // check for a remainder of 0 which is true for even numbers, only
+      if (position % 2 == 1) {
+        continue;            // skip iteration on odd numbers
+      }
+
+      System.out.printf("value: %d \n", position);
+
+      // increase the current position by one
+      position += 1;
+    }
+
   }
 }
 
