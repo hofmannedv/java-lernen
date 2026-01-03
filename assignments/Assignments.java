@@ -53,6 +53,13 @@ public class Assignments {
     System.out.printf("output4: " + output4 + "\n");
     System.out.printf("output5: " + output5 + "\n");
 
+    // combined assignments
+    total += 1;                        // short for total = total + 1
+    total -= 1;                        // short for total = total - 1
+    total *= 2;                        // short for total = total * 2
+    total /= 2;                        // short for total = total / 2
+    total %= 5;                        // short for total = total % 5
+
     // print a partial string from the beginning up to index position 2 ('bl')
     System.out.println(colour.substring(0, 2));
 
