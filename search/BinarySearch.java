@@ -13,6 +13,9 @@
 
 // *** work in progress ***
 
+// import required modules
+import java.util.Arrays;
+
 public class BinarySearch {
   public static int findBinary (int[] data, int searchFor, int level) {
     // define internal variables
@@ -25,8 +28,13 @@ public class BinarySearch {
       // data is an empty array, and cannot be searched
       System.out.println("findBinary: given data list is empty, and cannot perform a search");      
     } else {
-      // search the array using a foreach loop
-      // finds the 1st occurence of the value, only
+      // firstly, sort the array in-place in case it contains more than a single element
+      if (data.length > 1) {
+        Arrays.sort(data);             // use built-in sort method from Arrays class
+      }
+
+      // secondly, search the array using a foreach loop
+      // so far, finds the 1st occurence of the value, only
       for (int value: data) {
         System.out.println("comparing " + value + " ... ");
 
