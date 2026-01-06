@@ -11,15 +11,12 @@
 // Usage: java BinarySearch
 // ------------------------------------------------------------------
 
-// *** work in progress ***
-
 // import required modules
 import java.util.Arrays;
 
 public class BinarySearch {
   public static int findBinary (int[] data, int searchFor, int level) {
     // define internal variables
-    int position = 1;                  // define position
     boolean found = false;             // marker to remember if value was found
     int result = -1;                   // assume: value not found in data
 
@@ -28,28 +25,56 @@ public class BinarySearch {
       // data is an empty array, and cannot be searched
       System.out.println("findBinary: given data list is empty, and cannot perform a search");      
     } else {
-      // firstly, sort the array in-place in case it contains more than a single element
-      if (data.length > 1) {
-        Arrays.sort(data);             // use built-in sort method from Arrays class
-      }
-
-      // secondly, search the array using a foreach loop
-      // so far, finds the 1st occurence of the value, only
-      for (int value: data) {
-        System.out.println("comparing " + value + " ... ");
-
-        if (searchFor == value) {
-          // print success
-          System.out.println("findBinary: " + searchFor + " found at element " + position);
-
-          // adjust marker, and result
-          found = true;
-          result = position;
-
-          // no further search needed, so quit the foreach loop
-          break;
+      // we can shorten it in case the array consists of a single element, only
+      if (data.length == 1) {
+        if (data[0] == searchFor) {
+          found = true;                // report success
+          result = 0;                  // position is 0
+          System.out.println("findBinary: found " + searchFor + " at position 0");      
         }
-        position += 1;
+      } else {
+        // firstly, sort the array in-place in case it contains more than a single element
+        Arrays.sort(data);             // use built-in sort method from Arrays class
+
+        // secondly, search the array, and find the 1st occurence of the value, only
+        // define left, and right range
+        int left = 0;
+        int right = data.length - 1;
+
+        // define middle element
+        int middle; 
+
+        do {
+          // output search range
+          System.out.println("checking from position " + left + ", to " + right);
+
+          // calculate middle element
+          middle = (right + left) / 2;
+
+          System.out.println("comparing " + data[middle] + " at position " + middle + " with " + searchFor + " ...");
+          if (data[middle] == searchFor) {
+            found = true;              // report success
+            result = middle;           // position is middle
+            System.out.println("findBinary: found " + searchFor + " at position " + middle);      
+          } else {
+            // continue searching either left, or right of the middle
+            if (searchFor < data[middle]) {
+              // recalculate right range
+              right = middle - 1;
+              if (right < left) {
+                System.out.println("findBinary: " + searchFor + " not found");
+                break;                 // quit search
+              }
+            } else {
+              // recalculate left range
+              left = middle + 1;
+              if (left > right) {
+                System.out.println("findBinary: " + searchFor + " not found");
+                break;                 // quit search
+              }
+            }
+          }
+        } while (found == false);
       }
     }
 
@@ -60,7 +85,7 @@ public class BinarySearch {
   public static void main (String[] args) {
 
     // define an array with five postcodes from the Alsace region
-    int[] postcodeAlsace = new int[] {68000, 67000, 68130, 68100, 68200}; 
+    int[] postcodeAlsace = new int[] {68000, 67100, 67000, 68145, 68130, 68100, 68200, 68205, 67200, 67300}; 
     int searchFor = 68100;             // define value to look for
     int position = -1;                 // assume: value not in array
 
