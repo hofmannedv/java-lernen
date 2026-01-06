@@ -15,7 +15,7 @@
 import java.util.Arrays;
 
 public class BinarySearch {
-  public static int findBinary (int[] data, int searchFor, int level) {
+  public static int findBinary (int[] data, int searchFor) {
     // define internal variables
     boolean found = false;             // marker to remember if value was found
     int result = -1;                   // assume: value not found in data
@@ -90,7 +90,7 @@ public class BinarySearch {
     int position = -1;                 // assume: value not in array
 
     // call findBinary method
-    position = findBinary(postcodeAlsace, searchFor, 1);
+    position = findBinary(postcodeAlsace, searchFor);
     
     if (position > -1) {
       // print success
