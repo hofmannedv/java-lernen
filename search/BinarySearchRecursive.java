@@ -11,36 +11,40 @@
 // Usage: java BinarySearchRecursive
 // ------------------------------------------------------------------
 
-// *** work in progress, and result is not accurate ***
-
 // import required modules
 import java.util.Arrays;
 
 public class BinarySearchRecursive {
-  public static int findBinary (int[] data, int searchFor, int level) {
+  public static int findBinary (int[] data, int searchFor, int level, int arrayFrom, int arrayTo, boolean verbose) {
     // define internal variables
     boolean found = false;             // marker to remember if value was found
     int result = -1;                   // assume: value not found in data
 
-    // output recursion level
-    System.out.println("findBinary: called at level " + level);      
+    if (verbose) {
+      // output recursion level
+      System.out.println("findBinary: called at level " + level);
 
-    // output data to be searched
-    for (int dataValue: data) {
-      System.out.println("value: " + dataValue);
+      // output data to be searched
+      for (int dataValue: data) {
+        System.out.println("value: " + dataValue);
+      }
     }
 
     // check size of data: must be more than 0 to do a proper search
     if (data.length < 1) {
-      // data is an empty array, and cannot be searched
-      System.out.println("findBinary: given data list is empty, and cannot perform a search");      
+      if (verbose) {
+        // data is an empty array, and cannot be searched
+        System.out.println("findBinary: given data list is empty, and cannot perform a search");
+      }
     } else {
       // we can shorten it in case the array consists of a single element, only
       if (data.length == 1) {
         if (data[0] == searchFor) {
           found = true;                // report success
-          result = 0;                  // position is 0
-          System.out.println("findBinary: found " + searchFor + " at position 0");      
+          result = arrayFrom;          // position is similar to what we were called with
+          if (verbose) {
+            System.out.println("findBinary: found " + searchFor + " at position " + arrayFrom);
+          }
         }
       } else {
         // search the array, and find the 1st occurence of the value, only
@@ -50,12 +54,17 @@ public class BinarySearchRecursive {
 
         // define middle element
         int middle = (right + left) / 2;
+        int arrayLocation = arrayFrom + middle;
 
-        System.out.println("comparing " + data[middle] + " at position " + middle + " with " + searchFor + " ...");
+        if (verbose) {
+          System.out.println("comparing " + data[middle] + " at position " + arrayLocation + " with " + searchFor + " ...");
+        }
         if (data[middle] == searchFor) {
           found = true;              // report success
-          result = middle;           // position is middle
-          System.out.println("findBinary: found " + searchFor + " at position " + middle);
+          result = arrayLocation;    // position is arrayLocation
+          if (verbose) {
+            System.out.println("findBinary: found " + searchFor + " at position " + arrayLocation);
+          }
         } else {
           if (data[middle] > searchFor) {
             // prepare left side to be searched
@@ -63,22 +72,14 @@ public class BinarySearchRecursive {
             for (int i = left; i < middle; i++) {
               leftData[i - left] = data[i];
             }
-            result = findBinary(leftData, searchFor, level + 1);
-            // adjust result
-            if (result != -1) {
-              result = result + middle;
-            }
+            result = findBinary(leftData, searchFor, level + 1, arrayFrom, arrayLocation - 1, verbose);
           } else {
             // prepare right side to be searched
             int[] rightData = new int[right - middle];
             for (int i = middle + 1; i <= right; i++) {
               rightData[i - middle - 1] = data[i];
             }
-            result = findBinary(rightData, searchFor, level + 1);
-            // adjust result
-            if (result != -1) {
-              result = result + middle - 1;
-            }
+            result = findBinary(rightData, searchFor, level + 1, arrayLocation + 1, arrayTo, verbose);
           }
         }
 
@@ -96,12 +97,15 @@ public class BinarySearchRecursive {
     int searchFor = 68200;             // define value to look for
     int position = -1;                 // assume: value not in array
     int level = 1;                     // used to indicate the recursion level
+    int arrayFrom = 0;                 // start at the beginning of the array
+    int arrayTo = postcodeAlsace.length - 1; // end at the end of the array
+    boolean verbose = false;           // verbose output enabled
 
     // firstly, sort the array in-place in case it contains more than a single element
     Arrays.sort(postcodeAlsace);       // use built-in sort method from Arrays class
 
     // call findBinary method
-    position = findBinary(postcodeAlsace, searchFor, level);
+    position = findBinary(postcodeAlsace, searchFor, level, arrayFrom, arrayTo, verbose);
     
     if (position > -1) {
       // print success
