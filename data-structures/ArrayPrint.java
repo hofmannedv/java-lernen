@@ -30,5 +30,18 @@ public class ArrayPrint {
     // print content of postcodeAlsace using Arrays.toString method
     System.out.println("= Content of array postcodeAlsace (using conversion to String) =");
     System.out.println("postcode: " + Arrays.toString(postcodeAlsace));
+    System.out.println(" ");
+
+    // use StringBuilder class to concatenate the elements of an array
+    System.out.println("= Content of array postcodeAlsace (using StringBuilder, and foreach loop) =");
+    StringBuilder concatenatedString = new StringBuilder("postcode: ");
+    for (int value: postcodeAlsace) {
+      // convert integer to string
+      String s = Integer.toString(value);
+      // append string, and delimiter to a string
+      concatenatedString.append(s).append(", ");
+    }
+    // remove the last two characters from the concatenated string
+    System.out.println(concatenatedString.substring(0, concatenatedString.length() - 2));
   }
 }
