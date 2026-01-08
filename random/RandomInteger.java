@@ -19,13 +19,17 @@
 import java.util.Random;
 
 public class RandomInteger {
-  public static void main (String[] args) {
-
+  public static void randomSingleInteger () {
     // create random object
     Random randomInteger = new Random();
 
     // calculate random integer
     int randomNumber = randomInteger.nextInt(100) + 1;
     System.out.println("Random number between 1, and 100: " + randomNumber);
+  }
+
+  public static void main (String[] args) {
+    // create a single random integer
+    randomSingleInteger();
   }
 }
