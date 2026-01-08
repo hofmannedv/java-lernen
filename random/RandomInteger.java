@@ -28,8 +28,22 @@ public class RandomInteger {
     System.out.println("Random number between 1, and 100: " + randomNumber);
   }
 
+  public static void randomMultipleInteger (int numberOfRandomIntegers) {
+    // create random object
+    Random randomInteger = new Random();
+
+    // create random numbers in a for loop
+    for (int i = 0; i < numberOfRandomIntegers; i++) {
+      int randomNumber = randomInteger.nextInt(100) + 1;
+      System.out.println("Random number " + (i + 1) + ": " + randomNumber);
+    }
+  }
+
   public static void main (String[] args) {
     // create a single random integer
     randomSingleInteger();
+
+    // create a 10 random integer values
+    randomMultipleInteger(10);
   }
 }
