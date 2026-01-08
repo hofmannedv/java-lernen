@@ -9,6 +9,10 @@
 // SPDX-License-Identifier: GNU General Public License v3.0 or later
 // 
 // Usage: java RandomInteger
+//
+// Further reading:
+// Meenakshi Agarwal: Generating Random Numbers Between 1 and 100 in Java
+// https://dev.to/meenakshi052003/generating-random-numbers-between-1-and-100-in-java-i3b
 // ------------------------------------------------------------------
 
 // import required Java module
