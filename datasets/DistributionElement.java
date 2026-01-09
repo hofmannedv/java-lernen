@@ -13,6 +13,28 @@
 // ------------------------------------------------------------------
 
 public class DistributionElement {
-  int value;                           // value to be counted
-  int counter;                         // number of items
+
+  // define attributes
+  private int value;                   // value to be counted
+  private int counter;                 // number of items
+
+  public static int getValue () {
+    return value;                      // return the stored value
+  }
+
+  public static int setValue (int newValue) {
+    value = newValue;                  // assign a new value
+  }
+
+  public static int getCounter () {
+    return counter;                    // return the stored counter value
+  }
+
+  public static int setCounter (int newCounter) {
+    counter = newCounter;              // assign a new counter value
+  }
+
+  public static int increaseCounter () {
+    counter = counter + 1;             // increase counter value by one
+  }
 }
