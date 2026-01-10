@@ -11,7 +11,7 @@ README
 
 = Using the getopt library =
 
-Requires the getopt library available from here:
+Requires the getopt library by Aaron Renn available from here:
 https://github.com/arenn/java-getopt
 
 For Debian GNU/Linux, use the package libgetopt-java:
