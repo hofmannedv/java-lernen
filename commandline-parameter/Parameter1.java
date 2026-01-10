@@ -1,7 +1,7 @@
 // ------------------------------------------------------------------
 // Demonstrates how to evaluate, and output the first parameter
 //
-// (C) 2025 Frank Hofmann
+// (C) 2025-2026 Frank Hofmann
 // Released under GNU Public License (GPL)
 // Email frank.hofmann@efho.de
 // 
