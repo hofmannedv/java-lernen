@@ -14,6 +14,10 @@
 // names, and value of the call parameters/options
 // ------------------------------------------------------------------
 
+// import required libraries
+import gnu.getopt.LongOpt;
+import gnu.getopt.Getopt;
+
 public class ParametersGetopt {
   public static void main (String[] parameters) {
     // count for parameters
