@@ -9,3 +9,10 @@ README
 * Parameter1.java
   demonstrates how to evaluate, and output the first call parameter
 
+= Using the getopt library =
+
+Requires the getopt library available from here:
+https://github.com/arenn/java-getopt
+
+For Debian GNU/Linux, use the package libgetopt-java:
+https://packages.debian.org/trixie/libgetopt-java
