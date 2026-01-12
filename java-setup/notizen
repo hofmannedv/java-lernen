@@ -3,8 +3,8 @@
 Setting Up for Java on Linux
 https://dev.to/mtendekuyokwa19/setting-up-for-java-on-linux-133f
 
-* required Debian package for Java Development Kit: default-jdk
-  test Java version: java --version
+* erforderliches Debianpaket zur Java-Entwicklung (JDK): default-jdk
+  testen der Java-Version: java --version
 
 ----
 $ java --version
@@ -14,8 +14,8 @@ OpenJDK 64-Bit Server VM (build 17.0.17+10-Debian-1deb12u1, mixed mode, sharing)
 $
 ----
 
-* Java compiler as part of JDK: /usr/bin/javac
-  test Java compiler version: javac --version
+* Java-Compiler als Teil des JDK: /usr/bin/javac
+  testen der version des Java-Compilers: javac --version
 
 ----
 $ javac --version
@@ -93,6 +93,10 @@ $
 
 * Java and Debian GNU/Linux
   https://wiki.debian.org/Java
+
+* Java-Einstiegskurs von Paul Hänsch
+  Programmierlogik und Programmiergrundlagen
+  https://plutz.net/training/Programmierlogik%20und%20Programmiergrundlagen/
 
 * Java Lernen
   https://github.com/hofmannedv/java-lernen
