@@ -35,7 +35,7 @@ public class Segment {
     distance = newValue;               // assign a new value
   }
 
-  int getStartingPoint () {
+  String getStartingPoint () {
     return startingPoint;              // return the stored name
   }
 
@@ -43,7 +43,7 @@ public class Segment {
     startingPoint = newName;           // assign a new name for the starting point
   }
 
-  int getEndPoint () {
+  String getEndPoint () {
     return endPoint;                   // return the stored name
   }
 
