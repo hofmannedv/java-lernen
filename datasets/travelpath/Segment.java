@@ -32,7 +32,7 @@ public class Segment {
     return startingPoint;              // return the stored name
   }
 
-  void setStartingPoint (int newName) {
+  void setStartingPoint (String newName) {
     startingPoint = newName;           // assign a new name for the starting point
   }
 
@@ -40,7 +40,7 @@ public class Segment {
     return endPoint;                   // return the stored name
   }
 
-  void setEndPoint (int newName) {
+  void setEndPoint (String newName) {
     endPoint = newName;                // assign a new name for the endpoint
   }
 }
