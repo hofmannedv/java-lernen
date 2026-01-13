@@ -20,6 +20,13 @@ public class Segment {
   private String endPoint;             // name of the endpoint
   private int distance;                // distance between the points
 
+  // define constructor method
+  Segment (String fromPlace, String toPlace, int travelDistance) {
+    startingPoint = fromPlace;
+    endPoint = toPlace;
+    distance = travelDistance;
+  }
+
   int getDistance () {
     return distance;                   // return the stored value
   }
