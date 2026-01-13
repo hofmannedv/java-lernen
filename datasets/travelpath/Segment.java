@@ -17,7 +17,7 @@ public class Segment {
 
   // define attributes
   private String startingPoint;        // name of the starting point
-  private String endpoint;             // name of the endpoint
+  private String endPoint;             // name of the endpoint
   private int distance;                // distance between the points
 
   int getDistance () {
@@ -37,10 +37,10 @@ public class Segment {
   }
 
   int getEndPoint () {
-    return endpoint;                   // return the stored name
+    return endPoint;                   // return the stored name
   }
 
   void setEndPoint (int newName) {
-    endpoint = newName;                // assign a new name for the endpoint
+    endPoint = newName;                // assign a new name for the endpoint
   }
 }
