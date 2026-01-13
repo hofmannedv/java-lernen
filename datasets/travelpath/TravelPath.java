@@ -16,11 +16,14 @@ import java.util.ArrayList;            // import the ArrayList class
 
 public class TravelPath {
 
-  public static int calculateDistance (ArrayList<Segment> travelPath) {
+  public static int calculateTotalDistance (ArrayList<Segment> travelPath) {
 
-    int distance = 0;                  // assume the distance is 0
+    int totalDistance = 0;             // assume the distance is 0
+    for (Segment currentTrack: travelPath) {
+      totalDistance += currentTrack.getDistance();
+    }
 
-    return distance;                   // return the calculated value
+    return totalDistance;              // return the calculated value
   }
 
   public static void main (String[] args) {
@@ -42,6 +45,7 @@ public class TravelPath {
     // - number of tracks
     int length = roadtrip.size();
     System.out.println("the roadtrip contains " + length + " track(s)");
+    System.out.println(" ");
 
     // - from, to, and distance
     for (Segment currentTrack: roadtrip) {
@@ -50,6 +54,11 @@ public class TravelPath {
        int distance = currentTrack.getDistance();
        System.out.printf("from %s to %s (%d km) \n", fromPlace, toPlace, distance);
     }
+
+    // output total travelling distance
+    int totalDistance = calculateTotalDistance(roadtrip);
+    System.out.println(" ");
+    System.out.printf("total distance: %d km\n", totalDistance);
   }
 }
 
