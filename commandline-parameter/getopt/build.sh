@@ -21,9 +21,8 @@
 # define project files, and compilation order
 projectFiles=("ParametersGetopt.java")
 
-# adjust environment variable CLASSPATH
-CLASSPATH="/usr/share/java/gnu-getopt.jar"
-export CLASSPATH
+# define the classpath variable for the compiler
+classpathCompiler="/usr/share/java/gnu-getopt.jar"
 
 # loop through the list of project files, and try to compile it
 for entry in "${projectFiles[@]}"; do
@@ -32,7 +31,7 @@ for entry in "${projectFiles[@]}"; do
   # does the file actually exist?
   if [[ -f "$entry" ]]; then
     # compile, and evaluate the output for errors
-    javac "$entry"
+    javac -classpath "$classpathCompiler" "$entry"
 
     # check for compilation error
     if [[ $? -ne 0 ]]; then
