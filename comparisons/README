@@ -8,7 +8,7 @@ README
                                    if-else comparison
 
 * BasicComparisonsLogicalAnd.java: both conditions need to be true (logical
-                                   AND)
+                                   AND), incomplete analysis
 
 * BasicComparisonsLogicalOr.java:  one of the conditions needs to be true 
                                    (logical OR)
