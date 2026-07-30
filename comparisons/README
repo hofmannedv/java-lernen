@@ -1,4 +1,7 @@
 README
 ------
 
-* BasicComparisons.java: demonstrates basic if-else if-else comparisons
+* BasicComparisons.java:      demonstrates basic if-else if-else comparisons
+
+* BasicComparisonsShort.java: demonstrates short version of basic if-else 
+                              comparison
