@@ -19,7 +19,7 @@ public class BasicComparisonsLogicalOr {
     int data1 = 12;
     int data2 = 15;
 
-    // use || for inclomplete analysis
+    // use || for incomplete analysis
     if (data1 == 10 || data2 == 15) {
         System.out.printf("either data1 has the value of 10, or data2 has 15 \n");
     } else {
