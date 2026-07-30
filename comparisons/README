@@ -10,6 +10,9 @@ README
 * BasicComparisonsLogicalAnd.java: both conditions need to be true (logical
                                    AND), incomplete analysis
 
+* BasicComparisonsLogicalAndFull.java: both conditions need to be true (logical
+                                   AND), complete analysis
+
 * BasicComparisonsLogicalOr.java:  one of the conditions needs to be true 
                                    (logical OR)
 
