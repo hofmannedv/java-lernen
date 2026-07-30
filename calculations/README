@@ -9,3 +9,7 @@ README
 
 * SalesTax.java:        demonstrates how to calculate the sales tax for 
                         a purchase
+
+* Total.java:           demonstrates the calculation of the total of a 
+                        number of values
+
