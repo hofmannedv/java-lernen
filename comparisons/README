@@ -14,3 +14,5 @@ README
                                    (logical OR)
 
 * BasicComparisonsLogicalNot.java: check for a condition to be true (logical NOT)
+ 
+* ExtendedComparisons.java:        demonstrates comparisons using switch-case
