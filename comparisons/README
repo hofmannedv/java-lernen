@@ -16,6 +16,9 @@ README
 * BasicComparisonsLogicalOr.java:  one of the conditions needs to be true 
                                    (logical OR), incomplete analysis
 
+* BasicComparisonsLogicalOrFull.java: one of the conditions needs to be true 
+                                   (logical OR), complete analysis
+
 * BasicComparisonsLogicalNot.java: check for a condition to be true (logical NOT)
  
 * ExtendedComparisons.java:        demonstrates comparisons using switch-case
