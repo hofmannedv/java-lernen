@@ -7,5 +7,8 @@ README
 * BasicComparisonsShort.java:      demonstrates short version of basic 
                                    if-else comparison
 
-* BasicComparisonsLogicalAnd.java: two conditions need to be true (logical
+* BasicComparisonsLogicalAnd.java: both conditions need to be true (logical
                                    AND)
+
+* BasicComparisonsLogicalOr.java:  one of the conditions needs to be true 
+                                   (logical OR)
