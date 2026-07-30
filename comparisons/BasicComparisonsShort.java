@@ -16,6 +16,8 @@ public class BasicComparisonsShort {
 
     // define data as list of integer values
     int data[] = {10, 15, 20};
+
+    // go through the dataset as a list
     for (int position = 0; position < data.length; position++) {
       int value = data[position];
       String result = (value == 15) ? "" : "not ";
