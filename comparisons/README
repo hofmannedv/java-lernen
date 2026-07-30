@@ -14,7 +14,7 @@ README
                                    AND), complete analysis
 
 * BasicComparisonsLogicalOr.java:  one of the conditions needs to be true 
-                                   (logical OR)
+                                   (logical OR), incomplete analysis
 
 * BasicComparisonsLogicalNot.java: check for a condition to be true (logical NOT)
  
