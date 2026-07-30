@@ -12,3 +12,5 @@ README
 
 * BasicComparisonsLogicalOr.java:  one of the conditions needs to be true 
                                    (logical OR)
+
+* BasicComparisonsLogicalNot.java: check for a condition to be true (logical NOT)
