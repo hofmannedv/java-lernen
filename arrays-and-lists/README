@@ -1,6 +1,9 @@
 README
 ------
 
+* BinarySearchArray.java: demonstrates how to find a value in a sorted array 
+                        using built-in method binarySearch()
+
 * FillArray.java:       demonstrates how to fill an array with identical
                         values, entirely
 
