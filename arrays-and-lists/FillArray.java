@@ -1,5 +1,5 @@
 // ------------------------------------------------------------------
-// Demonstrates how to fill an arry with identical values
+// Demonstrates how to fill an array entirely with identical values
 //
 // (C) 2026 Frank Hofmann
 // Released under GNU Public License (GPL)
