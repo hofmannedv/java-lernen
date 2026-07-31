@@ -4,8 +4,11 @@ README
 * Average.java:         demonstrates the calculation of the average of a 
                         number of values
 
-* MinMax.java:          demonstrates the detection of the minimal, and
-                        maximal value in a simple array of integer values
+* AverageArray.java:    demonstrates the calculation of the average of a 
+                        number of values using an array
+
+* MinMax.java:          demonstrates how to identify the largest and 
+                        smallest values in a simple list of integer values
 
 * SalesTax.java:        demonstrates how to calculate the sales tax for 
                         a purchase
