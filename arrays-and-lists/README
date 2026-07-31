@@ -7,3 +7,6 @@ README
 * FillArrayPartly.java: demonstrates how to partly fill an array with 
                         identical values
 
+* SortedArray.java:     demonstrates how to sort an array in ascending
+                        order using the built-in method sort()
+
