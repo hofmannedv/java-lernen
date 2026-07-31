@@ -16,3 +16,6 @@ README
 * Total.java:           demonstrates the calculation of the total of a 
                         number of values
 
+* TotalArray.java:      demonstrates the calculation of the total of a 
+                        number of values using an array
+
