@@ -9,3 +9,7 @@ All examples are organised into the appropriate category. In each category,
 you will find a file called README, which summarises what the file 
 demonstrates. Each individual file can be run on its own unless otherwise 
 indicated.
+
+In order to familiarise yourself with Java, there is no set order in which 
+you should work through the examples. For beginners, it is advisable to 
+start with these topics:
