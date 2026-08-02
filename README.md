@@ -13,3 +13,21 @@ indicated.
 In order to familiarise yourself with Java, there is no set order in which 
 you should work through the examples. For beginners, it is advisable to 
 start with these topics:
+
+* helloworld
+* comments
+* assignments
+* operators
+* calculations
+* comparisons
+* typecasting
+* arrays and lists
+* data-structures
+* control-structures
+* loops
+* exceptions
+* commandline-parameter
+* random
+* mathematics
+* search
+* dialog-windows-swing
