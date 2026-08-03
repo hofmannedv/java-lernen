@@ -27,13 +27,30 @@ start with these topics:
 - [Basic calculations](https://github.com/hofmannedv/java-lernen/tree/main/calculations)
 - [Making comparisons](https://github.com/hofmannedv/java-lernen/tree/main/comparisons)
 
-* arrays and lists
-* data-structures
-* control-structures
-* loops
-* exceptions
-* commandline-parameter
-* random
-* mathematics
-* search
-* dialog-windows-swing
+## Organizing the data
+
+- [Arrays and lists](https://github.com/hofmannedv/java-lernen/tree/main/arrays-and-lists)
+- [Various data structures](https://github.com/hofmannedv/java-lernen/tree/main/data-structures)
+
+## Structuring your code
+
+- [Control structures](https://github.com/hofmannedv/java-lernen/tree/main/control-structures)
+- [Repeated code execution (loops)](https://github.com/hofmannedv/java-lernen/tree/main/loops)
+- [Handling exceptions](https://github.com/hofmannedv/java-lernen/tree/main/exceptions)
+
+## Searching and Sorting
+
+- [Searching your data](https://github.com/hofmannedv/java-lernen/tree/main/search)
+
+## External communication
+
+- [Reading commandline parameters](https://github.com/hofmannedv/java-lernen/tree/main/commandline-parameter)
+
+## Mathematical topics
+
+- [Randomness](https://github.com/hofmannedv/java-lernen/tree/main/random)
+- [Mathematic calculations](https://github.com/hofmannedv/java-lernen/tree/main/mathematics)
+
+## Graphical User Interfaces
+
+- [Interaction using Swing](https://github.com/hofmannedv/java-lernen/tree/main/dialog-windows-swing)
