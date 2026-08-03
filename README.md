@@ -14,9 +14,10 @@ In order to familiarise yourself with Java, there is no set order in which
 you should work through the examples. For beginners, it is advisable to 
 start with these topics:
 
-* Getting started
-** [Java setup](https://github.com/hofmannedv/java-lernen/tree/main/java-setup)
-** [Hello, world!](https://github.com/hofmannedv/java-lernen/tree/main/helloworld)
+== Getting started ==
+
+- [Java setup](https://github.com/hofmannedv/java-lernen/tree/main/java-setup)
+- [Hello, world!](https://github.com/hofmannedv/java-lernen/tree/main/helloworld)
 
 * comments
 * assignments
