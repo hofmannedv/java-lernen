@@ -1,5 +1,4 @@
-java-lernen
-===========
+# java-lernen
 
 This repository contains data and code examples to help you learn the Java 
 programming language. All code examples were developed and tested under 
@@ -14,7 +13,7 @@ In order to familiarise yourself with Java, there is no set order in which
 you should work through the examples. For beginners, it is advisable to 
 start with these topics:
 
-== Getting started ==
+## Getting started
 
 - [Java setup](https://github.com/hofmannedv/java-lernen/tree/main/java-setup)
 - [Hello, world!](https://github.com/hofmannedv/java-lernen/tree/main/helloworld)
