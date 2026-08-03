@@ -15,15 +15,18 @@ start with these topics:
 
 ## Getting started
 
-- [Java setup](https://github.com/hofmannedv/java-lernen/tree/main/java-setup)
+- [Java setup on Debian GNU/Linux](https://github.com/hofmannedv/java-lernen/tree/main/java-setup)
 - [Hello, world!](https://github.com/hofmannedv/java-lernen/tree/main/helloworld)
 
-* comments
-* assignments
-* operators
-* calculations
-* comparisons
-* typecasting
+## General language components
+
+- [Comments](https://github.com/hofmannedv/java-lernen/tree/main/comments)
+- [Variable assignments](https://github.com/hofmannedv/java-lernen/tree/main/assignments)
+- [Typecasting](https://github.com/hofmannedv/java-lernen/tree/main/typecasting)
+- [Arithmetic, and logical operators](https://github.com/hofmannedv/java-lernen/tree/main/operators)
+- [Basic calculations](https://github.com/hofmannedv/java-lernen/tree/main/calculations)
+- [Making comparisons](https://github.com/hofmannedv/java-lernen/tree/main/comparisons)
+
 * arrays and lists
 * data-structures
 * control-structures
