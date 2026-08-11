@@ -16,9 +16,14 @@ import geometry.Point1d;
 
 public class Point1dTest {
     public static void main(String[] args) {
+        // define new point
         Point1d point = new Point1d();
+
+        // assign value of 4.0
         point.setX(4.0);
-        double wert = point.getX();
-        System.out.print("x-Wert: " + wert + "\n");
+
+        // retrieve value, and print it
+        double value = point.getX();
+        System.out.print("x value: " + value + "\n");
     }
 }
