@@ -1,0 +1,15 @@
+README
+------
+
+* BasicSearch.java
+  Demonstrates how to search an array for a value
+
+* BinarySearch.java
+  Demonstrates how to run a binary search for a value in an array
+
+* BinarySearchBuiltin.java
+  Demonstrates how to run a binary search for a value in an array
+
+* BinarySearchRecursive.java
+  Demonstrates how to run a binary search for a value in an array
+  as a recursive version
