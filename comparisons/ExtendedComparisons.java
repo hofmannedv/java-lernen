@@ -23,10 +23,10 @@ public class ExtendedComparisons {
       switch (value) {
         case 10:
           System.out.printf("value is 10\n");
-          break;
+          break;           // quit comparing 
         case 15:
           System.out.printf("value is 15\n");
-          break;
+          break;           // quit comparing
         default:
           System.out.printf("value is neither 10, nor 15 (%d)\n", value);
       }
