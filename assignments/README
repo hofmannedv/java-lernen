@@ -1,0 +1,11 @@
+README
+------
+
+* Assignments.java:      demonstrates how to assign values to a variable
+
+* AssignmentsArray.java: demonstrates how to assign values to an array
+
+* Constants.java:        demonstrates how to assign a fixed value to a variable
+
+* VariableScope.java:    demonstrates the scope of a variable
+
