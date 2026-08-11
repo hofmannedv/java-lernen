@@ -1,0 +1,9 @@
+README
+------
+
+* Circle.java:
+  demonstrates how to calculate area, and circumference of a circle
+
+* CircleCommandline.java:
+  demonstrates how to calculate area, and circumference of a circle. 
+  radius is read from commandline as an input parameter
