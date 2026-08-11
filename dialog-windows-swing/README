@@ -1,0 +1,13 @@
+README
+------
+
+* Hello.java:      demonstrates how to display an output window using SWING
+
+* Image.java:      demonstrates how to display an output window using SWING.
+                   display an JPEG image
+
+* Inputfield.java: demonstrates how to display an output window using SWING.
+                   input field is a standard SWING entry box with 
+                   description, and buttons. simple code without any input 
+                   validation.
+
