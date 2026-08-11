@@ -7,3 +7,14 @@ README
 * CircleCommandline.java:
   demonstrates how to calculate area, and circumference of a circle. 
   radius is read from commandline as an input parameter
+
+* geometry/Point1d.java:
+  demonstrates how to define a Point class for 1D
+
+* Point1dTest.java:
+  demonstrates how to use a prevously defined Point class for 1D
+
+* Point1dList.java
+  demonstrates how to use a prevously defined Point class for 1D
+  and create a list of 1D points
+  
