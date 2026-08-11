@@ -1,5 +1,5 @@
 // ------------------------------------------------------------------
-// demonstrates testing for multiple conditions
+// demonstrates testing for multiple conditions using the switch keyword
 //
 // (C) 2026 Frank Hofmann
 // Released under GNU Public License (GPL)

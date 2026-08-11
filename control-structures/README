@@ -1,0 +1,10 @@
+README
+------
+
+* Condition.java:       demonstrates testing for a specific condition
+
+* ConditionShort.java:  demonstrates testing for a specific condition 
+                        (short version using the ternary operator)
+
+* ConditionSwitch.java: demonstrates testing for multiple conditions using
+                        the switch keyword
