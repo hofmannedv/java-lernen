@@ -16,11 +16,8 @@ import geometry.Point1d;
 
 public class Point1dTest {
     public static void main(String[] args) {
-        // define new point
-        Point1d point = new Point1d();
-
-        // assign value of 4.0
-        point.setX(4.0);
+        // define new point, value of 4.0
+        Point1d point = new Point1d(4.0);
 
         // retrieve value, and print it
         double value = point.getX();
