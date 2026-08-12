@@ -14,12 +14,13 @@
 package geometry;
 
 public class Point2d extends Point1d {
-    // define class variable y
+    // define additional class variable y
     double y;
 
-    public Point2d (double value) {
+    public Point2d (double valueX, valueY) {
         // redefine constructor
-        y = value;
+        x = valueX;
+        y = valueY;
     }
 
     public void setY(double value) {
