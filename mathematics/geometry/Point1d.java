@@ -14,21 +14,21 @@
 package geometry;
 
 public class Point1d {
-    // define class variable x
-    double x;
+    // define class variable value
+    double value;
 
     public Point1d (double value) {
-        // redefine constructor, and init class variable x
-        this.x = value;
+        // redefine constructor, and init class variable value
+        this.value = value;
     }
 
-    public void setX(double value) {
-        // assign value to class variable x
-        this.x = value;
+    public void setValue(double value) {
+        // assign value to class variable value
+        this.value = value;
     }
 
-    public double getX() {
-        // return the value of the stored class variable x
-        return this.x;
+    public double getValue() {
+        // return the value of the stored class variable value
+        return this.value;
     }
 }

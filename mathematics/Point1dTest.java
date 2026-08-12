@@ -20,7 +20,7 @@ public class Point1dTest {
         Point1d point = new Point1d(4.0);
 
         // retrieve value, and print it
-        double value = point.getX();
-        System.out.print("x value: " + value + "\n");
+        double value = point.getValue();
+        System.out.print("point value: " + value + "\n");
     }
 }
