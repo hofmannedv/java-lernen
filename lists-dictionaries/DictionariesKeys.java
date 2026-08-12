@@ -11,7 +11,7 @@
 // Inspiration by: Java Dictionary Class
 // https://www.geeksforgeeks.org/java/java-util-dictionary-class-java/
 //
-// Usage: java DictionariesItems
+// Usage: java DictionariesKeys
 // ------------------------------------------------------------------
 
 import java.util.Dictionary;
