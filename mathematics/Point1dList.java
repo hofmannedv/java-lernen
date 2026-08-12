@@ -34,10 +34,10 @@ public class Point1dList {
             pointlist.add(point);
         }
 
-        // retrieve value, and print it
+        // retrieve the stored value, and print it to stdout
         for (Point1d point : pointlist) {
             double value = point.getX();
-            System.out.print("x value: " + value + "\n");
+            System.out.println("x value: " + value);
         }
     }
 }
