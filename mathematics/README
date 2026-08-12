@@ -11,8 +11,15 @@ README
 * geometry/Point1d.java:
   demonstrates how to define a Point class for 1D
 
+* geometry/Point2d.java:
+  demonstrates how to define a Point class for 2D based on Point1d class
+
 * Point1dTest.java:
   demonstrates how to use a prevously defined Point class for 1D
+
+* Point2dTest.java:
+  demonstrates how to use a prevously defined Point class for 2D based on
+  Point1d class
 
 * Point1dList.java
   demonstrates how to use a prevously defined Point class for 1D
