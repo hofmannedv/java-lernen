@@ -27,14 +27,14 @@ public class Point1dList {
 
         // process data
         for (double value : data) {
-            // define new point based on value
+            // define new point based on Point1d class
             Point1d point = new Point1d(value);
 
-            // extend list of points
+            // extend list of points, and add point to the end of the list
             pointlist.add(point);
         }
 
-        // retrieve the stored value, and print it to stdout
+        // retrieve the stored value from the list, and print it to stdout
         for (Point1d point : pointlist) {
             double value = point.getX();
             System.out.println("x value: " + value);
