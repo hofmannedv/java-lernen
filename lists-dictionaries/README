@@ -6,3 +6,6 @@ README
 
 * DictionariesKeys.java
   output the keys of a dictionary
+
+* DictionariesErrorHandling.java
+  demonstrates how to look for keys of a dictionary with error handling
