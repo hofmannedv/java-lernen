@@ -18,17 +18,17 @@ public class Point1d {
     double x;
 
     public Point1d (double value) {
-        // redefine constructor
-        x = value;
+        // redefine constructor, and init class variable x
+        this.x = value;
     }
 
     public void setX(double value) {
-        // assign x class attribute with value
-        x = value;
+        // assign x class variable with value
+        this.x = value;
     }
 
     public double getX() {
-        // return the stored value
-        return x;
+        // return the value of the stored class variable
+        return this.x;
     }
 }
