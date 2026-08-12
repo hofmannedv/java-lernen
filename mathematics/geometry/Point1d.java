@@ -23,12 +23,12 @@ public class Point1d {
     }
 
     public void setX(double value) {
-        // assign x class variable with value
+        // assign value to class variable x
         this.x = value;
     }
 
     public double getX() {
-        // return the value of the stored class variable
+        // return the value of the stored class variable x
         return this.x;
     }
 }
