@@ -22,6 +22,10 @@ README
   Point1d class
 
 * Point1dList.java
-  demonstrates how to use a prevously defined Point class for 1D
-  and create a list of 1D points
+  demonstrates how to use a prevously defined Point class for 1D, and 
+  create a list of 1D points stored in a list
+  
+* Point2dList.java
+  demonstrates how to use a prevously defined Point class for 2D based on
+  Point1d class, and create a list of 2D points stored in a list
   
