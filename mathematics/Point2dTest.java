@@ -16,13 +16,12 @@ import geometry.Point2d;
 
 public class Point2dTest {
     public static void main(String[] args) {
-        // define new point, value of (4.0, 7.5)
-        Point2d point = new Point2d(4.0, 7.5);
+        // define new point, value of 4.0
+        Point2d point = new Point2d(4.0, 12.5);
 
         // retrieve value, and print it
         double x = point.getX();
-        System.out.print("x value: " + x + "\n");
         double y = point.getY();
-        System.out.print("y value: " + y + "\n");
+        System.out.printf("point value (x, y): (%f, %f)\n", x, y);
     }
 }
