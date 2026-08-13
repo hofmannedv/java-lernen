@@ -30,6 +30,7 @@ start with these topics:
 ## Organizing the data
 
 - [Arrays and lists](https://github.com/hofmannedv/java-lernen/tree/main/arrays-and-lists)
+- [Dictionaries, lists and hashmaps](https://github.com/hofmannedv/java-lernen/tree/main/lists-dictionaries)
 - [Various data structures](https://github.com/hofmannedv/java-lernen/tree/main/data-structures)
 
 ## Structuring your code
