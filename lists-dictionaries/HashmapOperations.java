@@ -49,5 +49,15 @@ public class HashmapOperations {
         System.out.println("updating Norway from the data set ...");
         capital.put("Norway", "Oslo");
         System.out.println("updated data set:" + capital);
+
+        // adding entry for France if not yet in dataset
+        System.out.println("adding France to the data set ...");
+        capital.putIfAbsent("France", "Paris");
+        System.out.println("updated data set:" + capital);
+
+        // adding entry for Spain if not yet in dataset
+        System.out.println("adding Spain to the data set ...");
+        capital.putIfAbsent("Spain", "Madrid");
+        System.out.println("updated data set:" + capital);
     }
 }
