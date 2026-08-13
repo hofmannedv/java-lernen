@@ -10,6 +10,9 @@ README
 * DictionariesErrorHandling.java
   demonstrates how to look for keys of a dictionary with error handling
 
-* Hashmap.java
+* HashmapItems.java
   output the values of a hash map
+
+* HashmapKeys.java
+  output the keys of a hash map
 
