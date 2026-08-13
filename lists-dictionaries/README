@@ -19,3 +19,6 @@ README
 * HashmapClear.java
   empty (clear) the hashmap data set
 
+* HashmapSize.java
+  determine the number of entries in a hashmap data set
+
