@@ -31,10 +31,14 @@ public class HashmapOperations {
         // output the contents of the data set
         System.out.println("data set (with original data):" + capital);
 
-        // remove the entry for Switzerland
+        // remove the entry for Switzerland if it exists
         System.out.println("removing Switzerland from the data set ...");
-        capital.remove("Switzerland");
-        System.out.println("updated data set:" + capital);
+        if (capital.containsKey("Switzerland")) {
+            capital.remove("Switzerland");
+            System.out.println("updated data set:" + capital);
+        } else {
+            System.out.println("cannot find Switzerland in the data set");
+        }
 
         // add another entry for Norway with wrong data
         System.out.println("adding Norway to the data set ...");
