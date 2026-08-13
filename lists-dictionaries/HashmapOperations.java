@@ -47,7 +47,7 @@ public class HashmapOperations {
 
         // updating entry for Norway with correct data
         System.out.println("updating Norway from the data set ...");
-        capital.put("Norway", "Oslo");
+        capital.replace("Norway", "Oslo");
         System.out.println("updated data set:" + capital);
 
         // adding entry for France if not yet in dataset
