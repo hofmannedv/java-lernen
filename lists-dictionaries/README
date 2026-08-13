@@ -19,6 +19,10 @@ README
 * HashmapClear.java
   empty (clear) the hashmap data set
 
+* HashmapOperations.java
+  demonstrates how to add, update, and remove entries from a hashmap
+  data set
+
 * HashmapSize.java
   determine the number of entries in a hashmap data set
 
