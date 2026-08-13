@@ -8,13 +8,12 @@
 // License: GNU Public License (GPL) v.3.0 or later
 // SPDX-License-Identifier: GNU General Public License v3.0 or later
 // 
-// Inspiration by: Java Dictionary Class
-// https://www.geeksforgeeks.org/java/java-util-dictionary-class-java/
-//
+// Inspiration by: Java Hash Map Tutorial
+// https://www.w3schools.com/java/java_hashmap.asp
+// 
 // Usage: java HashmapItems
 // ------------------------------------------------------------------
 
-import java.util.Enumeration;
 import java.util.HashMap;
 
 public class HashmapItems {
