@@ -64,14 +64,13 @@ public class LinkedListOperations {
         capital.set(position, "Oslo");
         System.out.println("updated data set:" + capital);
 
-        // adding entry for France if not yet in dataset
-        //System.out.println("adding France to the data set ...");
-        //capital.putIfAbsent("France", "Paris");
-        //System.out.println("updated data set:" + capital);
-
-        // adding entry for Spain if not yet in dataset
-        //System.out.println("adding Spain to the data set ...");
-        //capital.putIfAbsent("Spain", "Madrid");
-        //System.out.println("updated data set:" + capital);
+        // adding entry for Madrid if not yet in dataset
+        System.out.println("adding Madrid to the data set if not yet there ...");
+        // determine the position of "Madrid" in the data set
+        position = capital.indexOf("Madrid");
+        if (position < 0) {
+            capital.add("Madrid");
+        }
+        System.out.println("updated data set:" + capital);
     }
 }
