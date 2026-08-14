@@ -31,14 +31,14 @@ public class LinkedListOperations {
         // output the contents of the data set
         System.out.println("data set (with original data):" + capital);
 
-        // remove the entry for Switzerland if it exists
-        //System.out.println("removing Switzerland from the data set ...");
-        //if (capital.containsKey("Switzerland")) {
-        //    capital.remove("Switzerland");
-        //    System.out.println("updated data set:" + capital);
-        //} else {
-        //    System.out.println("cannot find Switzerland in the data set");
-        //}
+        // remove the entry for Bern if it exists
+        System.out.println("removing Bern from the data set ...");
+        if (capital.contains("Bern")) {
+            capital.remove("Bern");
+            System.out.println("updated data set:" + capital);
+        } else {
+            System.out.println("cannot find Bern in the data set");
+        }
 
         // add another entry for Norway with wrong data
         //System.out.println("adding Norway to the data set ...");
