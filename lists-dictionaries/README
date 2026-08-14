@@ -23,6 +23,9 @@ README
   demonstrates how to add, update, and remove entries from a hashmap
   data set
 
+* HashmapOutput.java
+  demonstrates how to output the hashmap data set using forEach() method
+
 * HashmapSize.java
   determine the number of entries in a hashmap data set
 
