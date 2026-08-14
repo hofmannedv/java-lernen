@@ -57,10 +57,12 @@ public class LinkedListOperations {
         capital.addAll(1, Vienna);
         System.out.println("updated data set:" + capital);
 
-        // updating entry for Norway with correct data
-        //System.out.println("updating Norway from the data set ...");
-        //capital.replace("Norway", "Oslo");
-        //System.out.println("updated data set:" + capital);
+        // updating entry for Oslo with correct data
+        System.out.println("updating Olso from the data set ...");
+        // determine the position of "Olso" in the data set
+        int position = capital.indexOf("Olso");
+        capital.set(position, "Oslo");
+        System.out.println("updated data set:" + capital);
 
         // adding entry for France if not yet in dataset
         //System.out.println("adding France to the data set ...");
