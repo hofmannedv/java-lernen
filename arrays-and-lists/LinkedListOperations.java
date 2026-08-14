@@ -40,14 +40,21 @@ public class LinkedListOperations {
             System.out.println("cannot find Bern in the data set");
         }
 
-        // add another entry as the first item for Oslo with wrong data
+        // add another entry "Oslo" as the first item with wrong data
         System.out.println("adding Oslo at the beginning of the data set ...");
         capital.addFirst("Olso");
         System.out.println("updated data set:" + capital);
 
-        // add another entry as the last item for Prague
+        // add another entry "Prague" as the last item
         System.out.println("adding Prague at the end of the data set ...");
         capital.addLast("Prague");
+        System.out.println("updated data set:" + capital);
+
+        // add another entry "Vienna" as the second item
+        System.out.println("adding Vienna as the second item of the data set ...");
+        LinkedList<String> Vienna = new LinkedList<String>();
+        Vienna.add("Vienna");
+        capital.addAll(1, Vienna);
         System.out.println("updated data set:" + capital);
 
         // updating entry for Norway with correct data
