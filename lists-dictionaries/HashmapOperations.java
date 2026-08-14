@@ -12,7 +12,7 @@
 // Inspiration by: Java Hash Map Tutorial
 // https://www.w3schools.com/java/java_hashmap.asp
 // 
-// Usage: java HashmapClear
+// Usage: java HashmapOperations
 // ------------------------------------------------------------------
 
 import java.util.HashMap;
