@@ -10,14 +10,17 @@ README
 * DictionariesErrorHandling.java
   demonstrates how to look for keys of a dictionary with error handling
 
+* HashmapClear.java
+  empty (clear) the hashmap data set
+
 * HashmapItems.java
   output the values of a hash map
 
+* HashmapKeyCheck.java
+  demonstrates how to check whether a key exists in a hash map
+
 * HashmapKeys.java
   output the keys of a hash map
-
-* HashmapClear.java
-  empty (clear) the hashmap data set
 
 * HashmapOperations.java
   demonstrates how to add, update, and remove entries from a hashmap
