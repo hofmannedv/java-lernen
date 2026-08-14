@@ -22,6 +22,9 @@ README
 * LinkedListSortAscending.java
   demonstrates how to sort a linked list in ascending order
   
+* LinkedListSortDescending.java
+  demonstrates how to sort a linked list in descending order
+
 * LinkedListSortDescendingLambda.java
   demonstrates how to sort a linked list in descending order using a 
   lambda expression
