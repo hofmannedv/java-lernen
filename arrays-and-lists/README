@@ -11,6 +11,9 @@ README
 * FillArrayPartly.java
   demonstrates how to partly fill an array with identical values
 
+* SearchArray.java
+  demonstrates how to search an array for a specific value using a for loop
+
 * SortedArray.java
   demonstrates how to sort an array in ascending order using the built-in 
   method sort()
