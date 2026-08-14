@@ -25,6 +25,10 @@ README
 * LinkedListSortDescending.java
   demonstrates how to sort a linked list in descending order
 
+* LinkedListSortDescendingCollections.java
+  demonstrates how to sort a linked list in descending order using the
+  reverse method from the Collections module
+
 * LinkedListSortDescendingLambda.java
   demonstrates how to sort a linked list in descending order using a 
   lambda expression
