@@ -1,15 +1,21 @@
 README
 ------
 
-* BinarySearchArray.java: demonstrates how to find a value in a sorted array 
-                        using built-in method binarySearch()
+* BinarySearchArray.java
+  demonstrates how to find a value in a sorted array using built-in method 
+  binarySearch()
 
-* FillArray.java:       demonstrates how to fill an array with identical
-                        values, entirely
+* FillArray.java
+  demonstrates how to fill an array with identical values, entirely
 
-* FillArrayPartly.java: demonstrates how to partly fill an array with 
-                        identical values
+* FillArrayPartly.java
+  demonstrates how to partly fill an array with identical values
 
-* SortedArray.java:     demonstrates how to sort an array in ascending
-                        order using the built-in method sort()
+* SortedArray.java
+  demonstrates how to sort an array in ascending order using the built-in 
+  method sort()
 
+* LinkedListOperations.java
+  demonstrates how to add, update, and remove entries from a data set
+  organized as a linked list
+  
