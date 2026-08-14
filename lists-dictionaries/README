@@ -13,6 +13,10 @@ README
 * HashmapClear.java
   empty (clear) the hashmap data set
 
+* HashmapGetDefault.java
+  demonstrates how to output the value of an entry in a hash map, or 
+  "unknown" if it does not exist
+
 * HashmapItemCheck.java
   demonstrates how to check whether a value exists in a hash map
 
