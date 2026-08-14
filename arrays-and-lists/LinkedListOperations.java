@@ -45,6 +45,11 @@ public class LinkedListOperations {
         capital.addFirst("Olso");
         System.out.println("updated data set:" + capital);
 
+        // add another entry as the last item for Prague
+        System.out.println("adding Prague at the end of the data set ...");
+        capital.addLast("Prague");
+        System.out.println("updated data set:" + capital);
+
         // updating entry for Norway with correct data
         //System.out.println("updating Norway from the data set ...");
         //capital.replace("Norway", "Oslo");
