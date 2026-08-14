@@ -40,10 +40,10 @@ public class LinkedListOperations {
             System.out.println("cannot find Bern in the data set");
         }
 
-        // add another entry for Norway with wrong data
-        //System.out.println("adding Norway to the data set ...");
-        //capital.put("Norway", "Olso");
-        //System.out.println("updated data set:" + capital);
+        // add another entry as the first item for Oslo with wrong data
+        System.out.println("adding Oslo at the beginning of the data set ...");
+        capital.addFirst("Olso");
+        System.out.println("updated data set:" + capital);
 
         // updating entry for Norway with correct data
         //System.out.println("updating Norway from the data set ...");
