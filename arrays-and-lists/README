@@ -15,6 +15,9 @@ README
   demonstrates how to sort an array in ascending order using the built-in 
   method sort()
 
+* SortedArrayReverseLoop.java
+  demonstrates how to sort an array in descending order using a loop
+
 * LinkedListOperations.java
   demonstrates how to add, update, and remove entries from a data set
   organized as a linked list
