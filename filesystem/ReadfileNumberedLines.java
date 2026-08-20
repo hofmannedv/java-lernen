@@ -36,8 +36,11 @@ public class ReadfileNumberedLines {
       // ... as long as there are lines 
       while (myReader.hasNextLine()) {
         String data = myReader.nextLine();
+
         // print it to stdout
         System.out.println(lineCounter + ": " + data);
+
+        lineCounter = lineCounter + 1;
       }
     } catch (FileNotFoundException e) {
       // sth went wrong: file not found
