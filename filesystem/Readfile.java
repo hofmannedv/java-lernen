@@ -17,12 +17,10 @@
 // Usage: java Readfile
 // ------------------------------------------------------------------
 
-// *** work in progress ***
-
 // import required modules
 import java.io.File;
 import java.io.FileNotFoundException; // handle errors
-import java.util.Scanner;             // read text files
+import java.util.Scanner;             // module to read text files
 
 public class Readfile {
   public static void main(String[] args) {
@@ -34,7 +32,7 @@ public class Readfile {
       // ... as long as there are lines 
       while (myReader.hasNextLine()) {
         String data = myReader.nextLine();
-        // print it to stadout
+        // print it to stdout
         System.out.println(data);
       }
     } catch (FileNotFoundException e) {
