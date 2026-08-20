@@ -10,7 +10,12 @@ README
   to standard out that contain a specified substring. Acts similar to the 
   UNIX/Linux command fgrep.
   
-* ReadfileNumberedLines.java
+* ReadfileGrep.java
+  demonstrates how to read the contents of a file, and prints all lines 
+  to standard out that contain a substring specified as Regular Expression.
+  Acts similar to the UNIX/Linux command grep.
+
+ * ReadfileNumberedLines.java
   demonstrates how to read the contents of a file, and prints it to 
   standard out line by line, with line numbers. Acts similar to the 
   UNIX/Linux commands cat combined with nl.
