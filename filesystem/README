@@ -5,3 +5,8 @@ README
   demonstrates how to read the contents of a file, and prints it to 
   standard out line by line. Acts similar to the UNIX/Linux cat command.
   
+* ReadfileNumberedLines.java
+  demonstrates how to read the contents of a file, and prints it to 
+  standard out line by line, with line numbers. Acts similar to the 
+  UNIX/Linux commands cat combined with nl.
+
