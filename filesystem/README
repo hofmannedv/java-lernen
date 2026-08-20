@@ -1,0 +1,7 @@
+README
+------
+
+* Readfile.java
+  demonstrates how to read the contents of a file, and prints it to 
+  standard out line by line. Acts similar to the UNIX/Linux cat command.
+  
