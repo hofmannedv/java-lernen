@@ -20,3 +20,7 @@ README
   standard out line by line, with line numbers. Acts similar to the 
   UNIX/Linux commands cat combined with nl.
 
+* Writefile.java
+  demonstrates how to write data to a file. In case the file already 
+  exists it will be overwritten.
+  
