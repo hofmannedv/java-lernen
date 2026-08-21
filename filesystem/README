@@ -20,6 +20,11 @@ README
   standard out line by line, with line numbers. Acts similar to the 
   UNIX/Linux commands cat combined with nl.
 
+* ReadfileReverse.java
+  demonstrates how to read the contents of a file, and prints it to 
+  standard out line by line in reverse order. Acts similar to the 
+  UNIX/Linux command tac. Draft version.
+  
 * Writefile.java
   demonstrates how to write data to a file. In case the file already 
   exists it will be overwritten.
