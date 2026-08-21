@@ -24,3 +24,8 @@ README
   demonstrates how to write data to a file. In case the file already 
   exists it will be overwritten.
   
+* WritefileSafe.java
+  demonstrates how to write data to a file. In case the file already 
+  exists it will be overwritten. Adds safety mechanism in case writing
+  fails.
+  
