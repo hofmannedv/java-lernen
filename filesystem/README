@@ -5,6 +5,11 @@ README
   demonstrates how to read the contents of a file, and prints it to 
   standard out line by line. Acts similar to the UNIX/Linux cat command.
   
+* ReadfileCsv.java
+  demonstrates how to read the contents of a file, and treats it as
+  comma-separated values. Uses ";" as a separator, and prints the data 
+  column-wise to stdout
+  
 * ReadfileFgrep.java
   demonstrates how to read the contents of a file, and prints all lines 
   to standard out that contain a specified substring. Acts similar to the 
