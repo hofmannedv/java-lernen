@@ -15,7 +15,7 @@ README
   to standard out that contain a substring specified as Regular Expression.
   Acts similar to the UNIX/Linux command grep.
 
- * ReadfileNumberedLines.java
+* ReadfileNumberedLines.java
   demonstrates how to read the contents of a file, and prints it to 
   standard out line by line, with line numbers. Acts similar to the 
   UNIX/Linux commands cat combined with nl.
@@ -33,4 +33,9 @@ README
   demonstrates how to write data to a file. In case the file already 
   exists it will be overwritten. Adds safety mechanism in case writing
   fails.
+  
+* WritefileSafeAppend.java
+  demonstrates how to write data to a file. Appends data to an 
+  existing file, otherwise creates a new one. Adds safety mechanism 
+  to prevent write errors
   
