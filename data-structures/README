@@ -8,6 +8,10 @@ README
   demonstrates how to define, and access a record. Uses record named User
   as defined in User.java
 
+* RecordArraylist.java
+  demonstrates how to define, and access an Arraylist of records. Uses 
+  record named User
+
 * User.java
   demonstrates how to define a record (data structure)
   
