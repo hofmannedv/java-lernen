@@ -1,5 +1,13 @@
 README
 ------
 
-* ArrayPrint.java:       demonstrates different ways to output an array
+* ArrayPrint.java
+  demonstrates different ways to output an array
 
+* RecordPrint.java
+  demonstrates how to define, and access a record. Uses record named User
+  as defined in User.java
+
+* User.java
+  demonstrates how to define a record (data structure)
+  

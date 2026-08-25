@@ -11,5 +11,5 @@
 // Usage: java User
 // ------------------------------------------------------------------
 
-// define record
+// define record User with id, first name, and last name
 public record User(int id, String firstName, String lastName) {}
