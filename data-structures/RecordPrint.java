@@ -15,8 +15,14 @@
 
 public class RecordPrint {
   public static void main (String[] args) {
+
+    // define user1 based on the record data structure
     User user1 = new User(1000, "Holger", "Holgersen");
+
+    // access the content as initialized above
     System.out.printf("%d %s %s\n", user1.id(), user1.firstName(), user1.lastName());
+
+    // output structure 
     System.out.println(user1.toString());
   }
 }
