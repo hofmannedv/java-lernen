@@ -12,6 +12,10 @@ README
   demonstrates how to define, and access an Arraylist of records. Uses 
   record named User
 
+* RecordLinkedlist.java
+  demonstrates how to define, and access a LinkedList of records. Uses 
+  record named User
+
 * User.java
   demonstrates how to define a record (data structure)
   
