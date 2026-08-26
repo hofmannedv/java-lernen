@@ -40,7 +40,7 @@ public class ReadfileFgrep {
       while (myReader.hasNextLine()) {
         String data = myReader.nextLine();
 
-        if (data.indexOf(searchTerm) > 0) {
+        if (data.indexOf(searchTerm) >= 0) {
             // we found a line that contains the term we look for
             // print line to stdout
             System.out.println(lineCounter + ": " + data);
